@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookController {
     @GetMapping("/hello/books")
     public String getBook() {
+
         return "드디어 완성?";
     }
 }
