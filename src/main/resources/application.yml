@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bookstore-service-test
+
+server:
+  port: 10471
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://admin:1234@discovery-service-test:10465/eureka/
