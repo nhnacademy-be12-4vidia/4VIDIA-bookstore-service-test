@@ -9,4 +9,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://admin:1234@bookstore-service-test:10465/eureka/
+      defaultZone: http://admin:1234@discovery-server:10465/eureka/
