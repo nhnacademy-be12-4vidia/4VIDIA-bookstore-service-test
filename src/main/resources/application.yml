@@ -9,4 +9,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://admin:1234@discovery-server-test:10465/eureka/
+      defaultZone: http://admin:1234@discovery-server:10465/eureka/
+      # defaultZone: http://admin:1234@discovery-server-test:10465/eureka/
+      # 즉 defaultZone: http://admin:1234@{컨테이너이름}:포트번호/eureka/도 가능하다.
+
+
